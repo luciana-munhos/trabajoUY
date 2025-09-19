@@ -1,0 +1,179 @@
+
+
+/* cajita con foto y links */
+
+
+/* pfp en caja links */
+.links-perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* links del perfil bajo la foto */
+.links-perfil li {
+    display: block;
+    margin: 10px 0;
+} 
+
+.links-perfil li a {
+    color:rgb(244, 244, 244);
+    margin: 10px 0;
+    display: inline-block;
+    transition: all 0.3s; /* Transición suave para los cambios */
+
+}
+/* Estilo al pasar el mouse sobre los elementos */
+.cambioT:hover {
+    /* Estilo al pasar el mouse */
+    font-size: 18px; /* Tamaño de fuente al pasar el mouse */
+    color: #ffffff;  /* Color de texto al pasar el mouse (rojo en este caso) */
+}
+
+/* para los datos  */
+.details h6 {
+    color: rgba(87, 38, 101, 0.943);
+} 
+
+/* para los separadores de los datos*/
+
+
+.separadores .details .row {
+    border-bottom: 1px solid rgb(3, 2, 0);
+    padding: 10px;
+    font-weight: 700;
+    margin-right: 10px; /* Reduzca el margen derecho */
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.texto-descripcion {
+    text-align: justify;
+}
+
+
+
+
+/* para la foto de perfil en la nav bar */
+.foto-perfil{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+/* SECCION DE LAS TARJETITAS DE POSTULACIONES */
+.mt-5   {
+    text-align: center;
+}
+.postulaciones {
+    text-align: center;
+}
+
+.card.card-block {
+    background-color: #f4f5f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+ 
+  .card.card-block:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  }
+
+
+
+.tipos{
+    margin-right: 50px; /* Reduzca el margen derecho */
+    margin-left: 50px;  /* Reduzca el margen izquierdo */
+}
+
+
+
+table {
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+    border-radius: 10px; /* Establece un radio de borde circular */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde de la tabla */
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 2px solid #000; /* Grosor y color del borde de la tabla */
+    
+}
+
+th {
+    width: 100%;
+    border: 2px solid #000; /* Grosor y color del borde de la tabla */
+    height: 50px;
+    background-color: rgb(250, 244, 250);
+    background: linear-gradient(to bottom, #93d7fb 0%, #9de4f4 100%);
+    transition: border 0.3s, background 0.3s;
+    text-shadow: 4px 4px 8px rgba(252, 252, 252, 0.4);
+
+}
+
+
+#busqueda::placeholder {
+    color: #000000; /* Color del marcador de posición */
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 20%; /* Ancho de la primera columna */
+}
+th:nth-child(2), td:nth-child(2) {
+    width: 60%; /* Ancho de la primera columna */
+}
+
+
+
+td {   
+    height: auto;
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    transition: text-shadow 0.3s;
+}
+
+
+/* Estilos del contenedor */
+.contenedor {
+    text-align: center;
+}
+
+/* Estilos del botón de Comprar */
+.boton-comprar {
+    background-color: #3c3c3c; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    font-size: 24px; /* Tamaño de fuente */
+    padding: 15px 30px; /* Espaciado interno (arriba/abajo y izquierda/derecha) */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transiciones para efecto 3D */
+
+}
+
+/* Estilos del botón de Comprar al pasar el ratón */
+.boton-comprar:hover {
+    background-color: #200404; /* Nuevo color de fondo al pasar el ratón */
+    transform: scale(1.05); /* Escalar la tarjeta al pasar el cursor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Aumentar la sombra al pasar el cursor */
+}
+.modal {
+    pointer-events: none; /* Evita que los eventos pasen al contenido del modal */
+}
+
+.tarjeta{
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Hace que el texto sea negrito */
+
+}
+
+.centrar{
+    text-align: right;
+    margin-left: auto;
+}

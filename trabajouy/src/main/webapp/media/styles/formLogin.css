@@ -1,0 +1,17 @@
+.btn-custom-pink {
+    background-color: palevioletred;
+    /* Agrega otros estilos según sea necesario */
+    color: white; /* Cambia el color del texto para que sea legible */
+  }
+  
+.btn-custom-pink:hover {
+  background-color: white; /* Mantén el color de fondo rosado en estado de hover */
+  color: palevioletred; /* Mantén el color del texto en blanco en estado de hover */
+  /* Agrega otros estilos de hover según sea necesario */
+}
+  
+.bg-custom-pink {
+    background-color: palevioletred;
+    /* Agrega otros estilos según sea necesario */
+    color: white; /* Cambia el color del texto para que sea legible */
+  }

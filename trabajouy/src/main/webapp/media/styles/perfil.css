@@ -1,0 +1,112 @@
+
+/* cajita con foto y links */
+.links-perfil   {
+    background-color: khaki;
+    padding-left: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+/* pfp en caja links */
+.links-perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* links del perfil bajo la foto */
+.links-perfil li {
+    display: block;
+    margin: 10px 0;
+} 
+
+.links-perfil li a {
+    color:rgb(29, 124, 208);
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+/* para los datos personales */
+.details h6 {
+    color: rgb(185, 185, 232);
+} 
+
+/* para los separadores de los datos*/
+
+
+.separadores .details .row {
+    border-bottom: 1px solid rgb(227, 137, 19);
+    padding: 20px;
+    font-weight: 700;
+
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.texto-descripcion {
+    text-align: justify;
+}
+
+@media (max-widht:1200px) {
+    .mt-custom {
+        margin-top: 50px;
+    }
+
+    .links-perfil   {
+        background-color: khaki;
+        padding-left: 30px 20px;
+        text-align: center;
+        margin: 50px 50px 50px 50px;
+        border-radius: 10px;
+    
+    }
+}
+
+/* para los reajustes de tamanio */
+@media (max-widht:600) {
+    .mt-custom {
+        margin-top: 50px;
+    }
+
+    .links-perfil   {
+        background-color: khaki;
+        padding-left: 30px 20px;
+        text-align: center;
+        margin: 25px 25px 0px 25px;
+        border-radius: 10px;
+    
+    }
+}
+
+/* para la foto de perfil en la nav bar */
+.foto-perfil{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+/* SECCION DE LAS TARJETITAS DE POSTULACIONES */
+.mt-5   {
+    text-align: center;
+}
+.postulaciones {
+    text-align: center;
+}
+
+.card.card-block {
+    background-color: #b3d2e7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+ 
+  .card.card-block:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  }

@@ -1,0 +1,15 @@
+.imagen {
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+.contenedor {
+    display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+.informacion {
+    margin-left: 20px; /* Agrega un margen a la izquierda para separar la imagen de la información */
+}
+
+

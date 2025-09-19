@@ -1,0 +1,111 @@
+.navbar{
+    background-color: azure;
+    box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.2);
+}
+
+/* para la foto de perfil en la nav bar */
+.foto-perfil{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+i{
+    color: rgb(112, 104, 104);
+    font-size: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+
+}
+
+footer{
+    background-color: #D87093 !important;
+	bottom: 0;
+}
+
+.subtitulo-box{
+    background-color: rgb(178, 249, 249);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.img-padr{
+    height: 50px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.img-padr img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 40px;
+}
+
+#img-oferta img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.box-tp{
+    background-color: rgb(216, 252, 189);
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box-k {
+
+    background-color: rgb(246, 112, 112);
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box-k-tp h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(47, 30, 30);
+}
+
+.box-k-tp .btn{
+    background-color: rgb(249, 110, 110);
+    border: rgb(192, 141, 141);
+}
+
+.box-k-tp .btn:hover{
+    background-color: rgba(126, 144, 173, 0.281);
+    transition: 500ms;
+    border: 2px rgb(13, 13, 13);
+}
+
+.btn-postularse{
+    font-size: 1.5em;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

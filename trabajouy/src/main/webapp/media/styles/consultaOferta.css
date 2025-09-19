@@ -1,0 +1,31 @@
+/* para la foto de perfil en la nav bar */
+.foto-perfil{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.form-inline {
+    display: flex; /* Use flexbox to make elements display inline */
+    justify-content: flex-start; /* Align elements to the start (left) of the container */
+}
+
+.form-group {
+    margin-right: 10px; /* Add margin between the input and button */
+}
+
+.card-body  {
+    background-color: bisque;
+
+}
+    
+
+.card.mt-4 .card-block {
+    background-color: #b3d2e7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card.card-block:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}

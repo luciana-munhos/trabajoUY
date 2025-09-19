@@ -1,0 +1,20 @@
+.ajustesImagen{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sub{
+    background-color: rgb(251, 251, 251);
+}
+
+.subtitulo-box{
+    background-color: rgb(243, 249, 178);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

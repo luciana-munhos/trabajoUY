@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(244, 239, 239);
+}
+
+#mural-home{
+    background-color: rgb(223, 223, 184);
+    max-height: 500px;
+}
+
+#mural-home *{
+    max-height: 400px;
+}
+
+.card_oferta{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+.foto-perfil{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+#mensaje-bienvenida{
+    color: white;
+    background-color: #4A6670;
+    padding: 20px;
+    border-radius: 10px;
+    height: 10em;
+
+    box-shadow: 0px 23px 35px -12px rgba(0,0,0,0.31);
+-webkit-box-shadow: 0px 23px 35px -12px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 23px 35px -12px rgba(0,0,0,0.31);
+}
+
+#cuerpo_principal{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#container-keywords{
+    background-color: #97cdd5;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 23px 35px -12px rgba(0,0,0,0.31);
+-webkit-box-shadow: 0px 23px 35px -12px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 23px 35px -12px rgba(0,0,0,0.31);
+}
+
+.card_oferta:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+#lista_keywords{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#lista_keywords a{
+    color: rgb(255, 254, 254);
+}
+
+#btn-unirse{
+    background-color: rgb(3, 22, 169);
+    font-size: 1.5em;
+}
+
+#btn-unirse:hover{
+    background-color: rgb(3, 17, 120);
+    font-size: 1.5em;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
